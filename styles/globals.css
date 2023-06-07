@@ -6,24 +6,42 @@
 
 body {
   background: #131323;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
-nav div{
+nav{
   display: flex;
-  background-color: #1D1823;
-  border: 2px solid #443564;
+  justify-content: space-evenly;
 }
 #main-navbar{
-  border-radius: 50px;
+  display: flex;
+  background-color: #1D1823;
+  @apply 
+  h-12
+  rounded-full
+  border-2 border-[#443564]
+  ;
 }
 .liens-nav{
   background-color: #342C3F;
-  border: 2px solid #443564;
-  border-radius: 50px;
   text-align: center;
   @apply 
   text-gray-50
+  w-32
+  mx-3
+  rounded-full
+  border-2 border-[#443564]
+  ;
+}
+#second-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/polygon.png");
+}
+#second-navbar > *{
+  @apply
+  border-2 border-[#443564]
   ;
 }

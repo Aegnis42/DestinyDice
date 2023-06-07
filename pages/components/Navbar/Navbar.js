@@ -10,7 +10,7 @@ export function Navbar() {
                 <a className="liens-nav" href="#">Galerie</a>
                 <a className="liens-nav" href="#">Market place</a>
             </div>
-            <SecNav className="secondary-navbar"/>
+            <SecNav/>
         </nav>
     );
 }

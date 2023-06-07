@@ -1,8 +1,8 @@
 export function SecNav() {
     return (
-        <div>
-            <i>icon1</i>
-            <i>icon2</i>
+        <div id="second-navbar">
+            <i className="rounded-full bg-[#342C3F]">icon1</i>
+            <i className="rounded-full bg-[#342C3F]">icon2</i>
         </div>
     );
 }
