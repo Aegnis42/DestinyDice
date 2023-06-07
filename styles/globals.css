@@ -5,18 +5,24 @@
 
 
 body {
-  background: #131323
+  background: #131323;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
-#main-navbar{
+nav div{
   display: flex;
-  @apply
-  flex items-center
-  bg-amber-500
-  w-2/3
-  ;
+  background-color: #1D1823;
+  border: 2px solid #443564;
+}
+#main-navbar{
+  border-radius: 50px;
 }
 .liens-nav{
+  background-color: #342C3F;
+  border: 2px solid #443564;
+  border-radius: 50px;
+  text-align: center;
   @apply 
   text-gray-50
   ;
