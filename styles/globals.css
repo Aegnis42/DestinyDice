@@ -6,42 +6,9 @@
 
 body {
   background: #131323;
-  padding-left: 3vw;
-  padding-right: 3vw;
 }
 
-nav{
-  display: flex;
-  justify-content: space-evenly;
-}
-#main-navbar{
-  display: flex;
-  background-color: #1D1823;
-  @apply 
-  h-12
-  rounded-full
-  border-2 border-[#443564]
-  ;
-}
 .liens-nav{
-  background-color: #342C3F;
-  text-align: center;
-  @apply 
-  text-gray-50
-  w-32
-  mx-3
-  rounded-full
-  border-2 border-[#443564]
-  ;
-}
-#second-navbar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url("../images/polygon.png");
-}
-#second-navbar > *{
-  @apply
-  border-2 border-[#443564]
-  ;
+  @apply border py-1 px-10 mx-2 rounded-full bg-[#342C3F] border-2 border-[#6C5986] h-5/6 text-gray-200
+ 
 }

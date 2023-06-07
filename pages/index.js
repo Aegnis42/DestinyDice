@@ -5,7 +5,6 @@ export default function Home() {
     <>
     <header>
       <Navbar/>
-      <img src="../images/logo_1.png" />
     </header>
     <footer>
       

@@ -1,16 +1,17 @@
-import { SecNav } from "./SecNav";
 
 export function Navbar() {
     return (
-        <nav>
-            <a href="#"><img src="../../../images/logo_1.png"/></a>
-            <div id="main-navbar" className="flex items-center w-2/3">
-                <a className="liens-nav" href="#">Accueil</a>
-                <a className="liens-nav" href="#">Imformation</a>
-                <a className="liens-nav" href="#">Galerie</a>
+        <nav className="w-full flex justify-center fixed  ">
+            <a className="Logo" href="#"/>
+            <div id="main-navbar" className="flex justify-between w-2/3 items-center">
+                <div>
+                    <a className="liens-nav" href="#">Accueil</a>
+                    <a className="liens-nav" href="#">Imformation</a>
+                    <a className="liens-nav" href="#">Galerie</a>
+                </div>
                 <a className="liens-nav" href="#">Market place</a>
             </div>
-            <SecNav/>
+         
         </nav>
     );
 }
